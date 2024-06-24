@@ -53,7 +53,7 @@ $mainColor:#1b191f;
 body {
     width: 100%;
     padding: 0 5%;
-    background: #121212;
+    background: #f1f1f1;
     position: relative;
 
     // 最下方區塊
@@ -85,6 +85,8 @@ body {
 .area{
     width: 100%;
     display: flex;
+    background: $mainColor;
+    
 }
 // 左上角的Logo
 .header{
